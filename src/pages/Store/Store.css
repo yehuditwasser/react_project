@@ -1,0 +1,27 @@
+.store {
+    margin-left: 20px;
+    border: 5px solid rgb(251, 247, 247);
+    margin-right: 60px;
+    /*20*/
+    display: inline-block; 
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 1400px;
+    width: 100%;
+}
+.maneger{
+    top: 0;
+    left: 700px;
+}
+.search{
+    top: 50px;
+    left: 1200px;
+
+}
+.s{
+    position: fixed;
+    top: 50px;
+    left: 1200px;
+}

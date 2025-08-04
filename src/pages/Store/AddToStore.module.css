@@ -1,0 +1,18 @@
+.floating-window {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+
+.floating-window.open {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
