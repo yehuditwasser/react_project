@@ -5,7 +5,7 @@ import Store from "./pages/Store/Store";
 
 function App() {
   
-  return (  
+  return (
     <UserProvider>
       <BrowserRouter>
         <AppRoutes></AppRoutes>
